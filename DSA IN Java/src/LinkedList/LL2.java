@@ -3,7 +3,7 @@ package LinkedList;
 
 public class LL2
 {
-    
+
     private static class ListNode{
 
         private int data;
