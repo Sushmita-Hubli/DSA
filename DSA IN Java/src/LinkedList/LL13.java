@@ -49,7 +49,7 @@ public class LL13
 
         }
 
-        //for insertion of node at the last position 
+        //for insertion of node at the last position
         ptr1.next = newnode;
     }
     public static void main(String[] args) {
