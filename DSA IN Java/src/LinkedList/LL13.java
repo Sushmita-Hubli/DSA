@@ -62,7 +62,7 @@ public class LL13
         second.next=third;
         third.next=fourth;
         s1.display();
-        System.out.println("\nInserting a node in a sorted Linked List\n");
+        System.out.println("\nInserting a node in a sorted Linked List.\n");
         s1.insert(3);
         s1.display();
 
