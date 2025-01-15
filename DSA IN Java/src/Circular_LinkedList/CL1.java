@@ -11,7 +11,7 @@ public class CL1
         public ListNode(int data)
         {
             this.data=data;
-            length++;
+
 
         }
     }
@@ -110,6 +110,10 @@ public class CL1
         }
         length--;
     }
+    public int length()
+    {
+        return length;
+    }
     public static void main(String[] args) {
         System.out.println("It is similar to Singly Linked lIts only rhe last node points to the first node and not null." +
                 "Instead of head we keep track of the last node in Circular Singly Linked LIST");
@@ -123,6 +127,10 @@ public class CL1
         third.next=fourth;
         fourth.next=first;
         s1.last=fourth;
+
+        //MANUALLY SETTING THE LENGTH OF THE LINKED LIST FOR THESE INITIAL NODES
+        s1.length=4;
+
         s1.display();
         System.out.println();
         s1.insertatstart(61);
