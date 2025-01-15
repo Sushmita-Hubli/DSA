@@ -54,7 +54,7 @@ public class DL1
         ListNode second=new ListNode(2);
         ListNode third=new ListNode(3);
         ListNode fourth=new ListNode(4);
-        ListNode fifth=new ListNode(5);
+        ListNode fifth=new ListNode(6);
         s1.head.next=second;
         second.previous=s1.head;
         second.next=third;
