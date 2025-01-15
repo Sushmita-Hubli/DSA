@@ -14,7 +14,7 @@ public class DL1
         public ListNode(int data)
         {
             this.data=data;
-            length++;
+
         }
 
     }
@@ -64,6 +64,7 @@ public class DL1
         fourth.next=fifth;
         fifth.previous=fourth;
         s1.tail=fifth;
+        s1.length=5;//manually setting the length of Linked List
         s1.display();
         System.out.println("\nLength of the Linked List is "+s1.length());
 
