@@ -13,7 +13,7 @@ public class DL2
         public ListNode(int data)
         {
             this.data=data;
-            length++;
+
         }
     }
 
@@ -53,8 +53,9 @@ public class DL2
             newnode.next = head;
             head.previous = newnode;
             head = newnode;
-            length++;
+
         }
+        length++;
     }
     public void insertatend(int data)
     {
@@ -67,8 +68,9 @@ public class DL2
             newnode.previous = tail;
             tail.next = newnode;
             tail = newnode;
-            length++;
+
         }
+        length++;
     }
     public void delfromfirst()
     {
@@ -118,6 +120,7 @@ public class DL2
         second.next=third;
         third.previous=second;
         s1.tail=third;
+        s1.length=3;
         s1.display();
         System.out.println("\nLength of the list is "+s1.length());
         System.out.println();
@@ -129,9 +132,11 @@ public class DL2
         System.out.println();
         s1.delfromfirst();
         s1.display();
+        System.out.println("\nlength="+s1.length());
         System.out.println();
         s1.delfromlast();
         s1.display();
+      
 
 
 
