@@ -2,7 +2,8 @@ package Arrays;
 
 public class Array5
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         System.out.println("Reversing an array by two methods:");
         System.out.println("method 1:\n");
         int arr1[]={1,2,3,4};
