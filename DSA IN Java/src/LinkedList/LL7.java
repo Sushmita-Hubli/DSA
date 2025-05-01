@@ -53,8 +53,8 @@ public class LL7
             count++;
             curr=curr.next;
         }
-        ListNode remaining=curr.next.next;
-        curr.next=remaining;
+
+        curr.next=curr.next.next;
 
     }
     public static void main(String[] args) {
