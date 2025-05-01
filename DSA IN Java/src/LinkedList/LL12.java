@@ -31,13 +31,14 @@ public class LL12
         {
             if(ptrone.data==ptrtwo.data)
             {
-                ptrtwo=ptrtwo.next;
-                ptrone.next=ptrtwo;
+                ptrone.next=ptrtwo.next;
+                ptrtwo=ptrone.next;
             }
-            else {
-                ptrone=ptrone.next;
-                ptrtwo=ptrtwo.next;
+else {
+                ptrone = ptrone.next;
+                ptrtwo = ptrtwo.next;
             }
+
 
         }
     }
