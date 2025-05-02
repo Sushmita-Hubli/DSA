@@ -29,6 +29,7 @@ public class LL13
         ListNode ptr2=head.next;
         ListNode newnode=new ListNode(data);
 
+        //this is like inserting at first position which is one of the possibilities
         if (head == null || data <= head.data) {
             newnode.next = head;
             head = newnode;
