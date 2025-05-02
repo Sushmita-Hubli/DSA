@@ -30,15 +30,19 @@ public class LL15
         //use of fast and slow pointers
         ListNode fast=head;
         ListNode slow=head;
-        while(fast!=null)
+        while(fast!=null && fast.next!=null)
         {
-            slow=slow.next;
-            fast=fast.next.next;
+            slow = slow.next;
+            fast = fast.next.next;
+
             if(slow==fast)
             {
                 System.out.println("Loop detected");
                 return;
             }
+
+
+
         }
         System.out.println("Loop doesnt exist");
     }
